@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Bibliotecas CSS -->
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <link rel="stylesheet" href="./fontawesome-free-6.2.1-web/css/all.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    <link rel="stylesheet" href="./style.css">
+    <title>Gabriel Fulaneto</title>
+</head>
+<body>
+
+  <!-- NAVBAR -->
+
+    <nav class="navbar navbar-expand-lg">
+        <div class="container-fluid">
+          <a class="navbar-brand logo" href="#">Fula/></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Sobre</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#Portfólio">Projetos</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#Conhecimento">Conhecimento</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#Contato">Contato</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+
+      <!-- SOBRE -->
+
+    <section class="about">
+        <div class="container text-center">
+            <div class="row">
+              <div class="col-md-6 text-home">
+                <h1 class="my-name">Meu nome é Gabriel <strong>Fulaneto !</strong></h1>
+                <h3 class="subtitle">Front-End Developer</h3>
+                <h6>Tenho 17 anos, estou cursando Informática na ETEC de Hortolândia, completei o Ensino Médio recentemente. Sou apaixonado por programação e quero ingressar na área de TI, mais especificamente como Front-End.</h6>
+              </div>
+              <div class="col-md-6">
+                <img src="./img/personal-picture-nobackground-removebg-preview.jpg" class="img-fluid personal-picture" alt="personal-picture">
+              </div>
+            </div>
+          </div>
+    </section>
+
+<!-- PROJETOS -->
+
+    <section class="projects" id="Portfólio" data-anime="left">
+      <h2 class="text-center">Projetos.</h2>
+      <div class="container text-center">
+        <div class="row grid-projects">
+          <div class="col-md-4 project-layout">
+            <h3>Cálculos Matemáticos</h3>
+            <img src="./img/calculosite.png" alt="site-calculos">
+            <h6>Site de Cálculos Matemáticos<p>feito em HTML, CSS e Javascript.</p></h6>
+            <a href="https://gabrielfula.github.io/Calculos/" target="_blank">Visualizar Projeto</a>
+          </div>
+          <div class="col-md-4 project-layout">
+            <h3>Apple Fake</h3>
+            <img src="./img/AppleSite.png" alt="site-Apple">
+            <h6>Site de vendas da Apple<p>feito em HTML e CSS.</p></h6>
+            <a href="https://gabrielfula.github.io/AppleFake/" target="_blank">Visualizar Projeto</a>
+          </div>
+        </div>
+        <div class="repositorio">
+          <a href="" class="link-repositorio">Repositório Github</a>
+        </div>
+      </div>
+    </section>
+
+<!-- CONHECIMENTOS -->
+
+    <section class="conhecimentos" id="Conhecimento">
+      <div class="container text-center">
+        <div class="row">
+          <div class="col-md-6">
+            <h2>Conhecimentos.</h2>
+            <h6>Esses foram os meus apredizados em 1 ano de estudo</h6>
+            <h5 id="text" >* Passe o Mouse por cima *</h5>
+          </div>
+          <div class="col-md-6">
+            <div class="container text-center">
+              <div class="row row-cols-2 grid-conhecimento">
+                <div class="col space-html">
+                  <i class="fa-brands fa-html5" onmouseenter="TextHtml()" onmouseleave="Return()"></i>
+                </div>
+                <div class="col space-css">
+                  <i class="fa-brands fa-css3-alt" onmouseenter="TextCss()" onmouseleave="Return()"></i>
+                </div>
+                <div class="col space-boot">
+                  <i class="fa-brands fa-bootstrap" onmouseenter="TextBootstrap()" onmouseleave="Return()"></i>
+                </div>
+                <div class="col space-js">
+                  <i class="fa-brands fa-js" onmouseenter="TextJs()" onmouseleave="Return()"></i>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+<!-- CONTATO -->
+
+    <footer>
+      <div class="space-footer">
+        <h2>Contatos.</h2>
+        <div class="list-contacts">
+          <ul class="list-contacts">
+            <li><a href="https://github.com/gabrielfula?tab=repositories" target="_blank"><i class="fa-brands fa-github"></i> Github</a></li>
+            <li><a href="https://www.linkedin.com/in/gabriel-fulaneto-9b3863232/" target="_blank"><i class="fa-brands fa-linkedin"></i> Linkedin</a></li>
+            <li><a href="https://www.instagram.com/gabrielfula/" target="_blank"><i class="fa-brands fa-instagram"></i> Instagram</a></li>
+          </ul>
+        </div>
+      </div>
+    </footer>
+
+
+     <!-- Bibliotecas JS -->
+     <script src="https://unpkg.com/scrollreveal"></script>
+    <script src="./script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+</body>
+</html>
