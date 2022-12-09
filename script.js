@@ -25,7 +25,7 @@ function TextBootstrap() {
 }
 
 function TextJs() {
-    a.innerText = "É uma linguagem de programação que permite a você criar conteúdo que se atualiza dinamicamente"
+    a.innerText = "Javascript é uma linguagem de programação que permite criar conteúdos que se atualizam dinamicamente"
 
 }
 
