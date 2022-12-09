@@ -225,7 +225,7 @@ section.conhecimentos {
 .list-contacts ul li i,
 .list-contacts ul li i:hover {
     color: #930eff;
-    font-size: 20px;
+    font-size: 15px;
 }
 
 
@@ -233,9 +233,31 @@ section.conhecimentos {
     color: #fff;
 }
 
+strong {
+    color: #930eff;
+}
+
+/* RESPONSIVIDADE > 992PX*/
 
 
+@media (max-width: 991px){
+    .about .text-home h6 {
+        font-size: 13px;
+    }
 
+    .projects .project-layout  {
+        width: 80%;
+    }
+
+    h6 {
+        font-size: 13px;
+    }
+
+    .conhecimentos i {
+        font-size: 4rem;
+        padding-bottom: 40px;
+    }
+}
 
 
 

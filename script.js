@@ -1,7 +1,7 @@
 window.sr = ScrollReveal();
 
 sr.reveal(".projects", {
-    duration: 5000,
+    duration: 3000,
     delay: 1000
 });
 
